@@ -19,6 +19,11 @@ qrcode // =>
 
 ## options
 
+## render
+> default 'canvas'
+
+Optionally specify 'table' if you want rendering to be done via an html table versus canvas. 'table' fallback will be used automatically if canvas is not available in the browser.
+
 ### width
 Width in pixels of the element
 
