@@ -1,0 +1,36 @@
+{
+  "name": "qr-element",
+  "version": "0.0.0",
+  "description": "qrcode dom element",
+  "main": "index.js",
+  "scripts": {
+    "test": "zuul --ui tdd test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shtylman/qr-element.git"
+  },
+  "keywords": [
+    "qrcode",
+    "qr"
+  ],
+  "dependencies": {
+    "qr.js": "0.0.0",
+    "xtend": "2.0.3"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/7..latest",
+      "firefox/3.6..latest",
+      "chrome/5..latest",
+      "safari/5.1..latest"
+    ],
+    "harness": "mocha-tdd"
+  },
+  "devDependencies": {
+    "zuul": "0.0.5"
+  },
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT"
+}
