@@ -17,6 +17,24 @@ qrcode // =>
 [interactive readme](http://tryme.jit.su/shtylman/qr-element)  
 [interactive example](http://tryme.jit.su/shtylman/qr-element/example)
 
+package your app with [browserify](http://browserify.org/)
+
+## script tag users
+
+```html
+<script src="https://raw.github.com/shtylman/qr-element/master/dist/qr.js"></script>
+<script>
+var qrcode = qr('foo', {
+    width: 128,
+    height: 128
+});
+
+document.body.appendChild(qrcode);
+</script>
+```
+
+`qr` is exposed to the global namespace or it can work with other module loading system.
+
 ## options
 
 ## render
